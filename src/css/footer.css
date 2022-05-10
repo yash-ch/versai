@@ -1,0 +1,21 @@
+.book-footer {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: #747474;
+    font-size: 16px;
+}
+
+.footer-line {
+    background-color: rgba(251,75,2,1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content-box {
+    margin-top: 2vh;
+    margin-bottom: 50px;
+    padding-left: 4.5vw;
+}
