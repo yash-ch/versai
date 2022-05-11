@@ -1,0 +1,196 @@
+.upcoming-shows-main-div {
+  background-color: black;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  padding-bottom: 100px;
+  @media only screen and (max-width: 1250px) {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  @media only screen and (max-width: 768px) {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+}
+
+.title-upcoming-show {
+  display: inline-block;
+  font-family: "Libre Baskerville", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: left;
+  color: white;
+  @media only screen and (max-width: 768px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.title-upcoming-show:before {
+  content: "";
+  position: absolute;
+  width: 3%;
+  margin-top: 50px;
+  //left: 25%;
+  border-bottom: 3px solid blue;
+  @media only screen and (max-width: 768px) {
+    margin-top: 30px;
+    width: 8%;
+  }
+}
+
+.view-all {
+  padding-right: 9vw;
+  padding-top: 10px;
+  font-family: Nunito, serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  color: #E5C558;
+  float: right;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  @media only screen and (max-width: 768px) {
+    padding-top: 5px;
+    padding-right: 6vw;
+    font-size: 14px;
+  }
+}
+
+.view-all:hover {
+  transform: translateY(-4px);
+}
+
+.images-main-div {
+  //overflow-x: scroll;
+  margin-top: 40px;
+  display: grid;
+  grid-auto-flow: column;
+  --spacer: 3rem;
+  gap: var(--spacer);
+  overflow-x: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  overscroll-behavior: contain;
+  align-content: center;
+}
+
+.images-main-div::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.images-div {
+  background-color: #111229;
+  height: 387px;
+  width: 268px;
+  left: -8px;
+  top: 8px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.images-div-design {
+  background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
+  height: 387px;
+  width: 268px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.upcoming-images-type {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #E5C558;
+  height: 14px;
+  width: fit-content;
+  padding: 2px 6px 2px 6px;
+  border-radius: 1px;
+  color: #682F26;
+  font-family: Nunito, serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.upcoming-images-name {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: Libre Baskerville, serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  color: white;
+}
+
+.upcoming-bottom-div {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.upcoming-bottom-div p {
+  font-family: Nunito, serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0259EB;
+  cursor: pointer;
+}
+
+.upcoming-bottom-div span {
+  margin-left: 20px;
+  height: 13.5px;
+  width: 18.75px;
+}
+
+.upcoming-tickets{
+  position: absolute;
+  right: 0;
+  width: fit-content;
+}
+
+.upcoming-tickets-line{
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.16);
+  width: 2px;
+  border-radius: 8px;
+}
+
+.ticket-div{
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-top: -40px;
+  cursor: pointer;
+  background-image: url("../../public/assets/upcomingshows/ticket(1).png");
+  background-size: cover;
+}
+.ticket-div:hover{
+  background-image: url("../../public/assets/upcomingshows/ticket(2).png");
+}
+
+

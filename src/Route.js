@@ -6,8 +6,6 @@ function WebsiteRoute() {
       <Routes>
         <Route path="/" element={<HomePage/>}>
         </Route>
-        {/*<Route path="/player" element={<Player/>}>*/}
-        {/*</Route>*/}
       </Routes>
   );
 }

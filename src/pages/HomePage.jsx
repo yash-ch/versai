@@ -3,6 +3,7 @@ import HomePageBanner from "../components/homePageBanner";
 import documentTitle from "../documentTitle";
 import "../css/mainPage.css"
 import Footer from "../components/footer";
+import UpcomingShows from "../components/upcomingShows";
 
 export default function HomePage(){
     documentTitle("Versai")
@@ -10,7 +11,8 @@ export default function HomePage(){
       <div className={"main-page"}>
           <Header/>
           <HomePageBanner/>
-          <Footer/>
+          <UpcomingShows/>
+          {/*<Footer/>*/}
       </div>
     );
 }
