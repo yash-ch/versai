@@ -1,54 +1,55 @@
 .background {
   z-index: 1;
   position: relative;
-  height: 34vw;
+  height: 45vw;
+  padding-left: 9vw;
   top: -100px !important;
   margin-bottom: -100px;
-  @media only   screen and (max-width: 1250px) {
+  @media only screen and (max-width: 1250px) {
+    padding-left: 10vw;
     height: 45vw;
   }
   @media only screen and (max-width: 768px) {
     height: 80vw;
+    padding-left: 6vw;
   }
-  }
+}
 
-*{
+* {
   margin: 0;
 }
 
-.title{
+.title {
   color: white;
-  text-align: center;
   width: 100vw;
   display: block;
-  padding-top: 10vw;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 500%;
+  padding-top: 15vw;
+  font-family: "Libre Baskerville";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0;
+  text-align: left;
   position: relative;
   z-index: 3;
-  font-weight: 400;
   @media only screen and (max-width: 768px) {
     padding-top: 30vw;
     font-size: 200%;
   }
-  @media only screen and (min-width: 768px) and (max-width: 1250px){
+  @media only screen and (min-width: 768px) and (max-width: 1250px) {
     padding-top: 12vw;
     font-size: 300%;
   }
-  }
+}
 
 .banner-des {
-  color: white;
-  text-align: center;
-  width: 35vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 110%;
-  position: relative;
-  z-index: 3;
+  font-family: "Nunito";
+  font-size: 24px;
   font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  color: white;
   margin-top: 1vw;
   @media only screen and (max-width: 1250px) {
     //width: 60vw;
@@ -56,136 +57,8 @@
     //font-size: 80%;
   }
   @media only screen and (max-width: 768px) {
-    width: 60vw;
-    margin-bottom: -5vw;
-    font-size: 80%;
-  }
-}
-
-.button-text {
-  font-weight: 600 !important;
-  text-transform: none;
-}
-
-.banner-buttons {
-  font-size: 85% !important;
-  text-transform: none;
-  background-color: white !important;
-  color: black !important;
-  width: 140px !important;
-  height: 40px;
-  padding: 0 0 0 0 !important;
-  transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
-  @media only screen and (max-width: 1250px) {
-    height: 30px;
-    width: 80px;
-  }
-  @media only screen and (max-width: 768px) {
-    margin: 0;
-    width: 100px !important;
-    height: 30px !important;
-    font-size: 60% !important;
-  }
-}
-
-.banner-buttons:hover{
-  transform: translateY(-4px);
-  cursor: pointer;
-}
-
-.button-grid {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  z-index: 3;
-  margin-top: 50px;
-  margin-bottom: 5vw;
-  background: #00000000 !important;
-}
-
-.btn-7 {
-  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
-  line-height: 42px;
-  padding: 0;
-  border: none;
-}
-.btn-7 button span{
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.btn-7:before,
-.btn-7:after {
-  position: absolute;
-  content: "";
-  right: 0;
-  bottom: 0;
-  background: rgba(251,75,2,1);
-  transition: all 0.3s ease;
-}
-.btn-7:before{
-  height: 0;
-  width: 2px;
-}
-.btn-7:after {
-  width: 0;
-  height: 2px;
-}
-.btn-7:hover{
-  color: rgba(251,75,2,1) !important;
-  background: transparent;
-}
-.btn-7:hover:before {
-  height: 100%;
-}
-.btn-7:hover:after {
-  width: 100%;
-}
-.btn-7 span:before,
-.btn-7 span:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  background: rgba(251,75,2,1);
-  transition: all 0.3s ease;
-}
-.btn-7 span:before {
-  width: 2px;
-  height: 0;
-}
-.btn-7 span:after {
-  height: 2px;
-  width: 0;
-}
-.btn-7 span:hover:before {
-  height: 100%;
-}
-.btn-7 span:hover:after {
-  width: 100%;
-}
-
-.banner-custom-btn {
-  width: 130px;
-  height: 40px;
-  color: rgba(0, 0, 0, 0.78) !important;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  background: white !important;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-  7px 7px 20px 0 rgba(0,0,0,.1),
-  4px 4px 5px 0 rgba(0,0,0,.1);
-  outline: none;
-  @media only screen and (max-width: 768px) {
-    width: 100px;
-    height: 30px;
-    color: rgba(251,75,2,1) !important;
+    line-height: 24px;
+    margin-top: -5vw;
+    font-size: 14px;
   }
 }

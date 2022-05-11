@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 toast.configure()
 
-let headerMenuList = ["Team", "Contacts", "Issues", "Info"];
+let headerMenuList = ["Help", "Account"];
 export default function Header() {
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -28,7 +28,7 @@ export default function Header() {
                 <AppBar className="header" position="static" elevation={0}>
                     <Toolbar>
                         <Box sx={{display: {md: 'flex'}}}>
-                            <h3 className={"logo-text"}>📘BOOK.donation</h3>
+                            <img alt={"homejam"} src={"./assets/homejam.png"}/>
                         </Box>
                         <Box sx={{flexGrow: 1, display: {xs: 'none', md: 'flex'}}}/>
                         <Box sx={{flexGrow: 1}}/>

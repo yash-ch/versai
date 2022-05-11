@@ -2,7 +2,7 @@ import React from "react";
 import {Grid, Box} from '@mui/material';
 import "../css/footer.css"
 
-export default function BookFooter() {
+export default function Footer() {
     return (<footer>
         <Box className="animia-footer">
             <Box width={"90vw"} height={"3px"} className="footer-line"/>

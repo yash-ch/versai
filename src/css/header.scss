@@ -1,56 +1,65 @@
 .header {
-    width: 100%;
-    /* background-color: black !important; */
-    background: rgba(0,0,0,0) !important;
-    padding-left: 3vw;
-    margin-top: 2vw;
+  width: 100%;
+  /* background-color: black !important; */
+  background: rgba(0, 0, 0, 0) !important;
+  padding-left: 8vw;
+  padding-right: 6vw;
+  margin-top: 1vw;
+  @media only screen and (max-width: 768px) {
+    padding-left: 2vw;
+    padding-right: 0vw;
+  }
 }
 
 .header-button {
-    position: relative;
-    background-color: transparent;
-    color: white;
-    font-weight: 600;
-    margin-left: 1vw;
-    padding: 5% 15% 5% 15%;
-    border-color: transparent;
-    font-size: 16px;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  background-color: transparent;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 1vw;
+  padding: 5% 15% 5% 15%;
+  border-color: transparent;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-button:hover {
-    transform: translateY(-4px);
-    cursor: pointer;
+  transform: translateY(-4px);
+  cursor: pointer;
 }
 
 .header-more-button {
-    display: none;
-    position: relative;
-    color: white;
-    border-radius: 50px;
-    background-color: transparent;
-    padding: 5% 8%;
-    margin-left: 30%;
-    border-color: transparent;
-    float: right;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
+  position: relative;
+  color: white;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 5% 8%;
+  margin-left: 30%;
+  border-color: transparent;
+  float: right;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (max-width: 768px) {
-    .header-more-button {
-        display: flex;
-    }
-    .logo-text{
-        font-size: 4vw !important;
-    }
+  .header-more-button {
+    display: flex;
+  }
+  .logo-text {
+    font-size: 4vw !important;
+  }
 }
 
 .header-more-button:hover {
-    transform: translateY(-4px);
-    cursor: pointer;
+  transform: translateY(-4px);
+  cursor: pointer;
 }
 
-.logo-text{
-    color: white;
-    font-size: 120%;
+.logo-text {
+  color: white;
+  font-size: 120%;
 }
