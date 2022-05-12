@@ -1,10 +1,10 @@
 import "../css/upcomingShow.scss";
 
 const upcomingShows = [
-    {name: "Benny Dayal", type: "Folk", image: "./assets/upcomingshows/img.png"},
-    {name: "Vijay Yesudas", type: "Bollywood", image: "./assets/upcomingshows/img-1.png"},
-    {name: "Andrea Jeremiah", type: "Folk", image: "./assets/upcomingshows/img-2.png"},
-    {name: "Shilpa Rao", type: "Folk", image: "./assets/upcomingshows/img-3.png"}];
+    {name: "Benny Dayal", type: "Folk", image: "./assets/upcomingShows/img.png"},
+    {name: "Vijay Yesudas", type: "Bollywood", image: "./assets/upcomingShows/img-1.png"},
+    {name: "Andrea Jeremiah", type: "Folk", image: "./assets/upcomingShows/img-2.png"},
+    {name: "Shilpa Rao", type: "Folk", image: "./assets/upcomingShows/img-3.png"}];
 
 export default function UpcomingShows() {
     return (<div className={"upcoming-shows-main-div"}>
@@ -32,7 +32,7 @@ export default function UpcomingShows() {
                                 <p>
                                     More Info
                                     <span>
-                                    <img alt={"arrow"} src={"./assets/upcomingshows/arrow.png"}/>
+                                    <img alt={"arrow"} src={"./assets/upcomingShows/arrow.png"}/>
                                     </span>
                                 </p>
                                 <div className={"upcoming-tickets"}>
