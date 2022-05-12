@@ -1,10 +1,10 @@
 import "../css/upcomingShow.scss";
 
 const upcomingShows = [
-    {name: "Benny Dayal", type: "Folk", image: "./assets/upcomingShows/img.png"},
-    {name: "Vijay Yesudas", type: "Bollywood", image: "./assets/upcomingShows/img-1.png"},
-    {name: "Andrea Jeremiah", type: "Folk", image: "./assets/upcomingShows/img-2.png"},
-    {name: "Shilpa Rao", type: "Folk", image: "./assets/upcomingShows/img-3.png"}];
+    {name: "Benny Dayal", type: "Folk", image: "./assets/upcomingShows/human.png"},
+    {name: "Vijay Yesudas", type: "Bollywood", image: "./assets/upcomingShows/human-1.png"},
+    {name: "Andrea Jeremiah", type: "Folk", image: "./assets/upcomingShows/human-2.png"},
+    {name: "Shilpa Rao", type: "Folk", image: "./assets/upcomingShows/human-3.png"}];
 
 export default function UpcomingShows() {
     return (<div className={"upcoming-shows-main-div"}>
