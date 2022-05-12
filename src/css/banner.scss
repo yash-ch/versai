@@ -70,7 +70,7 @@
   width: 100vw;
   overflow-x: hidden;
   position: relative;
-  top: -54vh;
+  top: -50vh;
   z-index: 1;
   left: -9vw;
   @media only screen and (max-width: 768px) {
@@ -85,7 +85,7 @@
   }
   @media only screen and (max-width: 1250px) and (min-width: 900px) {
     height: 100px;
-    top: -28vw;
+    top: -20vw;
     left: -10vw;
   }
 }
