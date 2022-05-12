@@ -12,8 +12,8 @@ export default function Reviews() {
             <p className={"title-upcoming-show"}>
                 Reviews
             </p>
-            <p className={"view-all"}>
-                {"1/12 <- ->"}
+            <p className={"arrows"}>
+                {"1/12"}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"<- ->"}
             </p>
         </div>
         <div className={"review-main-div snaps-inline"}>

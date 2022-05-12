@@ -95,3 +95,25 @@
   color: white;
   opacity: 0.9;
 }
+
+.arrows{
+  padding-right: 10vw;
+  padding-top: 10px;
+  font-family: Nunito, serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  color: rgba(255, 255, 255, 0.5);
+  float: right;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  @media only screen and (max-width: 768px) {
+    padding-top: 5px;
+    padding-right: 6vw;
+    font-size: 14px;
+  }
+}
