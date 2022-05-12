@@ -2,9 +2,9 @@ import "../css/upcomingShow.scss";
 import "../css/reviews.scss";
 
 let reviews = [
-    {name : "Hellen Jummy", location : "PALO ALTO, CA", image : "./assets/reviews/img.png"},
-    {name : "Isaac Oluwatemilorun", location : "PALO ALTO, CA", image : "./assets/reviews/img-1.png"},
-    {name : "Yash Chauhan", location : "PALO ALTO, CA", image : "./assets/reviews/img-2.png"}];
+    {name : "Hellen Jummy", location : "PALO ALTO, CA", image : "./assets/reviews/user.png"},
+    {name : "Isaac Oluwatemilorun", location : "PALO ALTO, CA", image : "./assets/reviews/user-1.png"},
+    {name : "Yash Chauhan", location : "PALO ALTO, CA", image : "./assets/reviews/user-2.png"}];
 
 export default function Reviews() {
     return (<div className={"upcoming-shows-main-div"}>
