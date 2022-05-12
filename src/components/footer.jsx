@@ -4,7 +4,7 @@ import "../css/footer.css"
 
 export default function Footer() {
     return (<footer>
-        <Box className="animia-footer">
+        <Box className="footer">
             <Box width={"90vw"} height={"3px"} className="footer-line"/>
             <Box sx={{flexGrow: 1}} width="90vw" className="content-box">
                 <Grid container>

@@ -21,7 +21,7 @@
   line-height: 26px;
   letter-spacing: 0;
   text-align: left;
-  margin-left: 1vw;
+  margin-left: 2vw;
   padding: 5% 15% 5% 15%;
   border-color: transparent;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,4 +62,26 @@
 .logo-text {
   color: white;
   font-size: 120%;
+}
+
+.header-icon{
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover{
+    transform: translateY(-4px);
+  }
+  @media only screen and (max-width: 768px) {
+      position: absolute;
+    right: 0;
+    padding-right: 90px;
+  }
+}
+
+.header-icon-search{
+  width: 16px;
+  display: none;
+  padding-right: 120px;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+  }
 }

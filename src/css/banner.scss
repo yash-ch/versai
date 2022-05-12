@@ -1,10 +1,11 @@
 .background {
+  background-color: black;
   z-index: 1;
   position: relative;
   height: 45vw;
   padding-left: 9vw;
   top: -100px !important;
-  margin-bottom: -100px;
+  margin-bottom: 100px;
   @media only screen and (max-width: 1250px) {
     padding-left: 10vw;
     height: 45vw;
@@ -60,5 +61,103 @@
     line-height: 24px;
     margin-top: -5vw;
     font-size: 14px;
+  }
+}
+
+.gradient {
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0));
+  height: 300px;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  top: -54vh;
+  z-index: 1;
+  left: -9vw;
+  @media only screen and (max-width: 768px) {
+    height: 25vw;
+    top: -55vw;
+    left: -6vw;
+  }
+  @media only screen and (max-width: 1250px) and (min-width: 768px) {
+    height: 100px;
+    top: -34vw;
+    left: -10vw;
+  }
+  @media only screen and (max-width: 1250px) and (min-width: 900px) {
+    height: 100px;
+    top: -28vw;
+    left: -10vw;
+  }
+}
+.box{
+  background: black;
+  height: 300px;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  top: -50.1vh;
+  z-index: 3;
+  left: -9vw;
+  @media only screen and (max-width: 768px) {
+    height: 200px;
+    top : -10.2vw;
+  }
+  @media only screen and (max-width: 1250px) and (min-width: 768px) {
+    top: -10.2vw;
+    height: 330px;
+  }
+
+}
+
+.circular-bars{
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 200px;
+  position: relative;
+  z-index: 9;
+  @media only screen and (max-width: 768px) {
+    margin-top: 80px;
+    --spacer: 1.2rem;
+    gap: var(--spacer);
+    overflow-x: auto;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    overscroll-behavior: contain;
+    align-content: center;
+  }
+  @media only screen and (max-width: 1250px) and (min-width: 768px) {
+    margin-top: 80px;
+    --spacer: 1.2rem;
+    gap: var(--spacer);
+    overflow-x: auto;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    overscroll-behavior: contain;
+    align-content: center;
+  }
+}
+
+.circular-bar-main-div{
+  height: 208px;
+  width: 208px;
+  @media only screen and (max-width: 768px) {
+    height: 144px;
+    width: 144px;
+  }
+}
+.circular-bar-text{
+  font-family: Nunito, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.label-icon{
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover{
+    transform: scale(1.05);
   }
 }

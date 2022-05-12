@@ -2,8 +2,9 @@ import Header from "../components/header";
 import HomePageBanner from "../components/homePageBanner";
 import documentTitle from "../documentTitle";
 import "../css/mainPage.css"
-import Footer from "../components/footer";
 import UpcomingShows from "../components/upcomingShows";
+import Reviews from "../components/reviews";
+import Footer from "../components/footer";
 
 export default function HomePage(){
     documentTitle("Versai")
@@ -12,7 +13,8 @@ export default function HomePage(){
           <Header/>
           <HomePageBanner/>
           <UpcomingShows/>
-          {/*<Footer/>*/}
+          <Reviews/>
+          <Footer/>
       </div>
     );
 }

@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 toast.configure()
 
-let headerMenuList = ["Help", "Account"];
+let headerMenuList = ["Search", "Help", "Account"];
 export default function Header() {
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -24,7 +24,7 @@ export default function Header() {
 
     return (
         <div>
-            <Box  sx={{flexGrow: 1}}  style={{ position: 'relative', zIndex: '3' }}>
+            <Box sx={{flexGrow: 1}} style={{position: 'relative', zIndex: '3'}}>
                 <AppBar className="header" position="static" elevation={0}>
                     <Toolbar>
                         <Box sx={{display: {md: 'flex'}}}>
@@ -32,6 +32,7 @@ export default function Header() {
                         </Box>
                         <Box sx={{flexGrow: 1, display: {xs: 'none', md: 'flex'}}}/>
                         <Box sx={{flexGrow: 1}}/>
+                        <img src={"./assets/search.png"} alt={"bucket"} className={"header-icon header-icon-search"}/>
                         <Box sx={{display: {md: 'flex', xs: 'none',}}} style={{
                             marginRight: "2vw"
                         }}>
@@ -47,6 +48,7 @@ export default function Header() {
                                 );
                             })}
                         </Box>
+                        <img src={"./assets/bucket.png"} alt={"bucket"} className={"header-icon"}/>
                         <button className='header-more-button' onClick={
                             handleClick
                         }><MenuIcon/></button>
@@ -56,10 +58,8 @@ export default function Header() {
                             onClose={handleClose}
                             open={Boolean(anchorEl)}
                         >
-                            <MenuItem onClick={handleClose}>Team</MenuItem>
-                            <MenuItem onClick={handleClose}>Contacts</MenuItem>
-                            <MenuItem onClick={handleClose}>Issues</MenuItem>
-                            <MenuItem onClick={handleClose}>Info</MenuItem>
+                            <MenuItem onClick={handleClose}>Help</MenuItem>
+                            <MenuItem onClick={handleClose}>Account</MenuItem>
                         </Menu>
                     </Toolbar>
                 </AppBar>

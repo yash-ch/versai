@@ -2,7 +2,10 @@
   background-color: black;
   padding-left: 9vw;
   padding-right: 9vw;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 9;
+  //margin-top: 100px;
   @media only screen and (max-width: 1250px) {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -42,7 +45,7 @@
 }
 
 .view-all {
-  padding-right: 9vw;
+  padding-right: 10vw;
   padding-top: 10px;
   font-family: Nunito, serif;
   font-size: 16px;
@@ -68,11 +71,10 @@
 }
 
 .images-main-div {
-  //overflow-x: scroll;
   margin-top: 40px;
   display: grid;
   grid-auto-flow: column;
-  --spacer: 3rem;
+  --spacer: 1.2rem;
   gap: var(--spacer);
   overflow-x: auto;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -87,6 +89,7 @@
 
 .snaps-inline {
   scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 3rem);
 }
 
 .snaps-inline > * {
@@ -101,14 +104,19 @@
   top: 8px;
   position: relative;
   border-radius: 8px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.images-div:hover {
+  transform: translateY(-8px) translateX(8px);
+}
 .images-div-design {
   background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
   height: 387px;
   width: 268px;
   border-radius: 8px;
   margin-bottom: 8px;
+  margin-left: 10px;
 }
 
 .upcoming-images-type {
@@ -156,9 +164,15 @@
   text-align: left;
   color: #0259EB;
   cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.upcoming-bottom-div p:hover {
+  transform: scale(1.05);
 }
 
 .upcoming-bottom-div span {
+  padding-top: 10px;
   margin-left: 20px;
   height: 13.5px;
   width: 18.75px;
@@ -182,11 +196,11 @@
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 50px;
-  height: 50px;
-  margin-top: -40px;
+  width: 40px;
+  height: 40px;
+  margin-top: -34px;
   cursor: pointer;
-  background-image: url("../../public/assets/upcomingshows/ticket(1).png");
+  background-image: url("../../public/assets/upcomingshows/ticket(1)new.png");
   background-size: cover;
 }
 .ticket-div:hover{
