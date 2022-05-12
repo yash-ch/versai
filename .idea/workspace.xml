@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762506b1-a0af-46e0-a895-82a9c2a8bb5d" name="Changes" comment="images error in cloudflare">
+    <list default="true" id="762506b1-a0af-46e0-a895-82a9c2a8bb5d" name="Changes" comment="footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviews.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/mainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/mainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/upcomingShow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/upcomingShow.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,10 @@
       <updated>1652274823846</updated>
       <workItem from="1652274826267" duration="17509000" />
       <workItem from="1652298140746" duration="48000" />
-      <workItem from="1652333130664" duration="14488000" />
+      <workItem from="1652333130664" duration="14546000" />
+      <workItem from="1652356251805" duration="963000" />
+      <workItem from="1652366540870" duration="55000" />
+      <workItem from="1652367715675" duration="426000" />
     </task>
     <task id="LOCAL-00001" summary="completed">
       <created>1652345871677</created>
@@ -107,7 +114,28 @@
       <option name="project" value="LOCAL" />
       <updated>1652348114979</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="responsiveness">
+      <created>1652349100807</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652349100807</updated>
+    </task>
+    <task id="LOCAL-00006" summary="responsiveness">
+      <created>1652356378851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652356378851</updated>
+    </task>
+    <task id="LOCAL-00007" summary="footer">
+      <created>1652357300380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652357300380</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +155,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed" />
     <MESSAGE value="images error in cloudflare" />
-    <option name="LAST_COMMIT_MESSAGE" value="images error in cloudflare" />
+    <MESSAGE value="responsiveness" />
+    <MESSAGE value="footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer" />
   </component>
 </project>

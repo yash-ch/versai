@@ -1,5 +1,5 @@
 .background {
-  background-color: black;
+  background-color: rgb(10, 11, 26);
   z-index: 1;
   position: relative;
   height: 45vw;
@@ -65,7 +65,7 @@
 }
 
 .gradient {
-  background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0));
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(10, 11, 26));
   height: 300px;
   width: 100vw;
   overflow-x: hidden;
@@ -90,7 +90,7 @@
   }
 }
 .box{
-  background: black;
+  background: rgb(10, 11, 26);
   height: 300px;
   width: 100vw;
   overflow-x: hidden;

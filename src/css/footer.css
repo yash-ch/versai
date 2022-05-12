@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: black;
+    background-color: rgb(10, 11, 26);
     padding: 20px 0;
     text-align: center;
     color: white;
@@ -8,7 +8,7 @@
 }
 
 .footer-line {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.7);
     margin-left: auto;
     margin-right: auto;
     display: block;

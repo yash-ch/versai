@@ -13,7 +13,7 @@ export default function Reviews() {
                 Reviews
             </p>
             <p className={"view-all"}>
-                View All
+                {"1/12 <- ->"}
             </p>
         </div>
         <div className={"review-main-div snaps-inline"}>
