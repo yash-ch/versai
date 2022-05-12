@@ -3,7 +3,7 @@
     background-color: black;
     padding: 20px 0;
     text-align: center;
-    color: #747474;
+    color: white;
     font-size: 16px;
 }
 
@@ -13,6 +13,7 @@
     margin-right: auto;
     display: block;
     border-radius: 20px;
+    font-family: "Nunito", serif;
 }
 
 .content-box {
