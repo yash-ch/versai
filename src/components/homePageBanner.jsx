@@ -2,7 +2,6 @@ import "../css/banner.scss";
 import * as React from "react";
 import {toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import background from "../caricari.jpg"
 import {buildStyles, CircularProgressbarWithChildren} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
@@ -11,7 +10,7 @@ toast.configure()
 export default function HomePageBanner() {
 
     return (
-        <div className="background" style={{backgroundImage: `url(${background})`, backgroundSize: "cover"}}>
+        <div className="background">
             <p className="title">
                 Cari Cari
             </p>
@@ -51,7 +50,6 @@ export default function HomePageBanner() {
 
             </div>
             <div className="gradient"/>
-            <div className="box"/>
         </div>
 
     );

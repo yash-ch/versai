@@ -6,13 +6,19 @@
   padding-left: 9vw;
   top: -100px !important;
   margin-bottom: 100px;
+  background-image: url("../../public/assets/caricari.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
   @media only screen and (max-width: 1250px) {
     padding-left: 10vw;
-    height: 45vw;
+    height: 410px;
+    margin-bottom: 110px;
   }
   @media only screen and (max-width: 768px) {
-    height: 80vw;
+    height: 350px;
     padding-left: 6vw;
+    margin-bottom: 80px;
   }
 }
 
@@ -74,39 +80,20 @@
   z-index: 1;
   left: -9vw;
   @media only screen and (max-width: 768px) {
-    height: 25vw;
-    top: -55vw;
+    height: 140px;
+    top: -246px;
     left: -6vw;
   }
   @media only screen and (max-width: 1250px) and (min-width: 768px) {
     height: 100px;
-    top: -34vw;
+    top: -240px;
     left: -10vw;
   }
   @media only screen and (max-width: 1250px) and (min-width: 900px) {
     height: 100px;
-    top: -20vw;
+    top: -250px;
     left: -10vw;
   }
-}
-.box{
-  background: rgb(10, 11, 26);
-  height: 300px;
-  width: 100vw;
-  overflow-x: hidden;
-  position: relative;
-  top: -50.1vh;
-  z-index: 3;
-  left: -9vw;
-  @media only screen and (max-width: 768px) {
-    height: 200px;
-    top : -10.2vw;
-  }
-  @media only screen and (max-width: 1250px) and (min-width: 768px) {
-    top: -10.2vw;
-    height: 330px;
-  }
-
 }
 
 .circular-bars{
@@ -115,6 +102,7 @@
   margin-top: 200px;
   position: relative;
   z-index: 9;
+  padding-right: 9vw;
   @media only screen and (max-width: 768px) {
     margin-top: 80px;
     --spacer: 1.2rem;
